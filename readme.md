@@ -1,5 +1,6 @@
 git init -> to initialize a repo
 git status -> to check the status of all files present in repo
+git status -s -> to check the summarized status of all files present in repo
 ls -lart -> shows all files in the directory with permissions
 ls -> shows all files in the directory  
 git add <filename.ext> -> stage the changes, not commit
@@ -16,3 +17,4 @@ git diff -> compare working directory to staging area
 git diff --staged -> compare staging area to last commit
 git rm <filename.ext> -> to remove a file directly from the directory
 git rm --cached <filename.ext> -> to remove a file directly from the directory and send it to untrack position  
+git rm -f -> to delete forcefully a file from staged area and whatsoever
