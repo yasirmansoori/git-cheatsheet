@@ -18,3 +18,6 @@ git diff --staged -> compare staging area to last commit
 git rm <filename.ext> -> to remove a file directly from the directory
 git rm --cached <filename.ext> -> to remove a file directly from the directory and send it to untrack position  
 git rm -f -> to delete forcefully a file from staged area and whatsoever
+git branch -> to show all branches
+git branch <branch name> -> to create a new branch by given name 
+git checkout <branch name> -> to switch to that branch 
