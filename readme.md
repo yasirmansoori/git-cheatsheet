@@ -9,3 +9,7 @@ git commit -> to commit the changes, but this command will open a vim editor, th
 git commit -m "enter the message" -> To commit all files with single command and single message use 
 git checkout <filename.ext> -> to revert back the file to last saved commit
 git checkout -f -> to revert back all the files to last saved commit
+git log -> to show all entries of commits, the press wq to exit 
+git log -p -5 -> this will show last 5 commits
+git diff -> compare working directory to staging area
+git diff --staged -> compare staging area to last commit 
