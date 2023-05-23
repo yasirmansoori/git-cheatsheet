@@ -21,3 +21,5 @@ git rm -f -> to delete forcefully a file from staged area and whatsoever
 git branch -> to show all branches
 git branch <branch name> -> to create a new branch by given name 
 git checkout <branch name> -> to switch to that branch 
+git checkout -b <branch name> -> to create and switch to the branch with name given  
+git merge <branch name> -> make sure you first have to be onto master branch
