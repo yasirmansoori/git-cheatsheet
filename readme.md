@@ -25,3 +25,7 @@ git checkout -b <branch name> -> to create and switch to the branch with name gi
 git merge <branch name> -> make sure you first have to be onto master branch
 git remote add origin <url which you have to copy from repository  on github> -> this is used to add local repository to remote 
 git remote -> to check the repository linked to your local named as origin by default 
+git remote -v -> to check the url of fetch and push 
+git push origin master -> push origin to master branch 
+git push -u origin master -> use this command so that after every push you just have to write git push  
+git push -> to push files to the remote repository
