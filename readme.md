@@ -18,3 +18,14 @@ git diff --staged -> compare staging area to last commit
 git rm <filename.ext> -> to remove a file directly from the directory
 git rm --cached <filename.ext> -> to remove a file directly from the directory and send it to untrack position  
 git rm -f -> to delete forcefully a file from staged area and whatsoever
+git branch -> to show all branches
+git branch <branch name> -> to create a new branch by given name 
+git checkout <branch name> -> to switch to that branch 
+git checkout -b <branch name> -> to create and switch to the branch with name given   
+git merge <branch name> -> make sure you first have to be onto master branch
+git remote add origin <url which you have to copy from repository  on github> -> this is used to add local repository to remote 
+git remote -> to check the repository linked to your local named as origin by default 
+git remote -v -> to check the url of fetch and push 
+git push origin master -> push origin to master branch 
+git push -u origin master -> use this command so that after every push you just have to write git push  
+git push -> to push files to the remote repository
