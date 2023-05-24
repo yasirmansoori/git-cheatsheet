@@ -21,5 +21,7 @@ git rm -f -> to delete forcefully a file from staged area and whatsoever
 git branch -> to show all branches
 git branch <branch name> -> to create a new branch by given name 
 git checkout <branch name> -> to switch to that branch 
-git checkout -b <branch name> -> to create and switch to the branch with name given  
+git checkout -b <branch name> -> to create and switch to the branch with name given   
 git merge <branch name> -> make sure you first have to be onto master branch
+git remote add origin <url which you have to copy from repository  on github> -> this is used to add local repository to remote 
+git remote -> to check the repository linked to your local named as origin by default 
